@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* background: ; */
+}
+
+h1{
+    text-transform: uppercase; 
+    letter-spacing: 4px;
+    text-align: center;
+    /* font-size: 14px; */
+}
+
+.Clock{
+    display: flex;
+}
+
+.Clock .div{
+    margin: 5px;
+}
+
+.Clock span{
+    font-family: 'Roboto', sans-serif;
+    background-color: bisque;
+    display: flex;
+    width: 100px;
+}
+
